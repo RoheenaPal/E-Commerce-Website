@@ -15,14 +15,10 @@ nav{
     flex-grow: 0;
 }
 
-.navbar-nav li{
-    list-style: none;
-}
-
 .navbar-nav li a{
     color: rgb(238, 240, 102) !important;
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -109,13 +105,10 @@ iframe{
 }
 
 @media screen and (max-width: 400px){
-<<<<<<< HEAD
     .main{
         display: block;
     }
 
-=======
->>>>>>> ccc93e85a13495ef6e1cc969c6b87833764a9431
     h1{
         text-align: center;
         font-family: 'ZCOOL QingKe HuangYou';
@@ -173,6 +166,8 @@ iframe{
         font-size: 15px;
         color: red;
         font-family: 'ZCOOL QingKe HuangYou';
+        align-items: center;
+        padding-left: 100px;
     }
     
     .details b{
@@ -182,7 +177,7 @@ iframe{
     }
     
     iframe{
-        width: 250px; 
+        width: 270px; 
         height: 200px;
         align-self: center;
         padding-left: 100px;
