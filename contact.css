@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins&family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav{
+    padding: 0px 50px;
+    background-color: rgb(14, 14, 71) !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-nav li{
+    list-style: none;
+}
+
+.navbar-nav li a{
+    color: rgb(238, 240, 102) !important;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+/* Hover Effect */
+.navbar-nav li a:hover{
+    color: orange !important;
+}
+
+
+h1{
+    text-align: left;
+    font-family: 'ZCOOL QingKe HuangYou';
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.main .container {
+    width: 100%;
+    min-height: 80vh;
+    margin: 43px 0;
+    padding-left: 0px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 60%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: #d43b3b;
+    cursor: pointer;
+    outline: none;
+}
+
+.main{
+    display: flex;
+}
+
+.main .contact{
+    width: 100%;
+    margin: 43px 0; 
+}
+
+.main .contact a{
+    padding-top: 10px;
+    display: grid;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+
+.details b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+iframe{
+    width: 500px; 
+    height: 400px;
+}
+
+@media screen and (max-width: 375px){
+    h1{
+        text-align: left;
+        font-family: 'ZCOOL QingKe HuangYou';
+        padding-left: 10px;
+        padding-bottom: 6px;
+    }
+
+    .main .container {
+        width: 100%;
+        min-height: 80vh;
+        margin: 20px 0;
+        padding-left: 0px;
+    }
+
+    .myForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 12px;
+    }
+
+    .myInput{
+        font-size: 9px;
+        width: 100%;
+        padding: 5px;
+        margin: 4px;
+        border: 2px solid black;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .btn{
+        padding: 4px 6px;
+        font-size: 8px;
+        border: 2px solid black;
+        border-radius: 6px;
+        color: white;
+        background: #d43b3b;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .main{
+        display: flex;
+    }
+    
+    .main .contact{
+        width: 100%;
+        margin: 20px 0; 
+    }
+    
+    .main .contact a{
+        padding-top: 10px;
+        display: grid;
+        text-decoration: none;
+        font-size: 15px;
+        color: red;
+        font-family: 'ZCOOL QingKe HuangYou';
+    }
+    
+    .details b{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 12px;
+    }
+    
+    iframe{
+        width: 150px; 
+        height: 200px;
+    }
+}
