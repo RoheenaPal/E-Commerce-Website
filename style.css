@@ -251,3 +251,15 @@ nav{
 .owl-carousel h5{
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 400px){
+    .offer h1{
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: medium;
+        color: red;
+        background-color: black;
+        animation: movebox 5s linear infinite;
+        animation-delay: 2s;
+    }
+}
