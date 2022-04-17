@@ -109,10 +109,13 @@ iframe{
 }
 
 @media screen and (max-width: 400px){
+<<<<<<< HEAD
     .main{
         display: block;
     }
 
+=======
+>>>>>>> ccc93e85a13495ef6e1cc969c6b87833764a9431
     h1{
         text-align: center;
         font-family: 'ZCOOL QingKe HuangYou';
