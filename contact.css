@@ -170,6 +170,8 @@ iframe{
         font-size: 15px;
         color: red;
         font-family: 'ZCOOL QingKe HuangYou';
+        align-items: center;
+        padding-left: 100px;
     }
     
     .details b{
@@ -179,7 +181,7 @@ iframe{
     }
     
     iframe{
-        width: 250px; 
+        width: 270px; 
         height: 200px;
         align-self: center;
         padding-left: 100px;
