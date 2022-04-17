@@ -108,7 +108,7 @@ iframe{
     height: 400px;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     h1{
         text-align: left;
         font-family: 'ZCOOL QingKe HuangYou';
