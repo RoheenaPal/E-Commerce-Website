@@ -109,8 +109,12 @@ iframe{
 }
 
 @media screen and (max-width: 400px){
+    .main{
+        display: block;
+    }
+
     h1{
-        text-align: left;
+        text-align: center;
         font-family: 'ZCOOL QingKe HuangYou';
         padding-left: 10px;
         padding-bottom: 6px;
@@ -118,9 +122,10 @@ iframe{
 
     .main .container {
         width: 100%;
-        min-height: 80vh;
+        min-height: 0vh;
         margin: 20px 0;
         padding-left: 0px;
+        align-items: center;
     }
 
     .myForm{
@@ -139,6 +144,7 @@ iframe{
         border: 2px solid black;
         border-radius: 8px;
         outline: none;
+        align-items: center;
     }
 
     .btn{
@@ -151,14 +157,10 @@ iframe{
         cursor: pointer;
         outline: none;
     }
-
-    .main{
-        display: flex;
-    }
     
     .main .contact{
         width: 100%;
-        margin: 20px 0; 
+        margin: 0px 0; 
     }
     
     .main .contact a{
@@ -177,7 +179,9 @@ iframe{
     }
     
     iframe{
-        width: 150px; 
+        width: 250px; 
         height: 200px;
+        align-self: center;
+        padding-left: 100px;
     }
 }
