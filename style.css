@@ -112,16 +112,9 @@ nav{
     justify-content: center !important;
 }
 
-/* *{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
-} */
-
 .footer{
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
@@ -130,7 +123,7 @@ nav{
     line-height: 20px;
 }
 
-.footer .row{
+.footer .rowf{
     width: 85%;
     margin: auto;
     display: flex;
@@ -139,12 +132,12 @@ nav{
     justify-content: space-between;
 }
 
-.footer .col{
+.footer .colf{
     flex-basis: 25%;
     padding: 10px;
 }
 
-.footer .col:nth-child(2) .col:nth-child(2){
+.footer .colf:nth-child(2) .col:nth-child(2){
     flex-basis: 15%;
 }
 
@@ -239,6 +232,11 @@ nav{
     overflow: hidden;
 }
 
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .pdtname{
     font-family: 'Oswald', sans-serif;
 }
@@ -262,5 +260,15 @@ nav{
         animation: movebox 5s linear infinite;
         animation-delay: 2s;
     }
-}
 
+    .footer .rowf{
+        display: block;
+        top: 50%;
+        left: 50%;
+    }
+
+    .footer .colf{
+        top: 50%;
+        left: 50%;
+    }
+}
